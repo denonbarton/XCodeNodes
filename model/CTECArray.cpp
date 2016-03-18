@@ -82,6 +82,46 @@ Type CTECArray<Type>::get(int position)
 	}
 }
 
+
+
+
+
+
+
+
+
+
+
+template<class Type>
+int CTECArray<Type> :: indexOf(Type searchValue)
+{
+    assert(this->size >0);
+    
+    int index = 0;
+    
+    ArrayNode<Type> * searchPointer;
+    
+    for (searchPointer; = head; searchPointer != nullptr; searchPointer = searchPointer->getNext())
+    {
+        if(searchValue == searchPointer->getValue())
+        {
+            return index;
+        }
+        index++;
+    }
+    index = -1;
+    return index;
+}
+
+
+
+
+
+
+
+
+
+
 template<class Type>
 void CTECArray<Type>::set(int position,const Type& value)
 {
