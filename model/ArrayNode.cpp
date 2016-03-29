@@ -30,7 +30,7 @@ ArrayNode<Type> :: ArrayNode(const Type& value, ArrayNode<Type> * next) : Node<T
 template <class Type>
 ArrayNode<Type>::~ArrayNode()
 {
-
+    return Type;
 }
 
 template<class Type>
