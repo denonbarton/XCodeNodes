@@ -10,7 +10,6 @@
 
 #include <iostream>
 #include <string>
-
 #include "../Model/Node.cpp"
 #include "../Model/ArrayNode.cpp"
 #include "../Model/CTECArray.cpp"
@@ -23,6 +22,7 @@ class NodeController
 private:
 	CTECArray<int> * notHipster;
 	Timer arrayTimer;
+    void sortData();
 public:
 	NodeController();
 	virtual ~NodeController();
