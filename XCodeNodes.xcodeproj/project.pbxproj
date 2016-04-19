@@ -15,6 +15,7 @@
 		6904E7111C99DCFB00F14F85 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6904E7081C99DCFB00F14F85 /* Node.cpp */; };
 		6904E7121C99DCFB00F14F85 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6904E70A1C99DCFB00F14F85 /* Timer.cpp */; };
 		6904E7141C99DD8F00F14F85 /* CTECArray.cp in Sources */ = {isa = PBXBuildFile; fileRef = 6904E7131C99DD8F00F14F85 /* CTECArray.cp */; };
+		693C456D1CBEC146003B69A9 /* CTECBinaryTreePM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693C456B1CBEC146003B69A9 /* CTECBinaryTreePM.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,8 @@
 		6904E70A1C99DCFB00F14F85 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		6904E70B1C99DCFB00F14F85 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
 		6904E7131C99DD8F00F14F85 /* CTECArray.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTECArray.cp; sourceTree = "<group>"; };
+		693C456B1CBEC146003B69A9 /* CTECBinaryTreePM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTECBinaryTreePM.cpp; sourceTree = "<group>"; };
+		693C456C1CBEC146003B69A9 /* CTECBinaryTreePM.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CTECBinaryTreePM.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				6904E7091C99DCFB00F14F85 /* Node.h */,
 				6904E70A1C99DCFB00F14F85 /* Timer.cpp */,
 				6904E70B1C99DCFB00F14F85 /* Timer.h */,
+				693C456B1CBEC146003B69A9 /* CTECBinaryTreePM.cpp */,
+				693C456C1CBEC146003B69A9 /* CTECBinaryTreePM.hpp */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 				6904E70D1C99DCFB00F14F85 /* NodeRunner.cpp in Sources */,
 				6904E7121C99DCFB00F14F85 /* Timer.cpp in Sources */,
 				6904E70E1C99DCFB00F14F85 /* ArrayNode.cpp in Sources */,
+				693C456D1CBEC146003B69A9 /* CTECBinaryTreePM.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
