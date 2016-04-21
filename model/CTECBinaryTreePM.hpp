@@ -21,9 +21,12 @@ private:
     int height;
     bool balanced;
     void calcualteSize(TreeNodePM<Type> * currentNode);
+    
     bool contains(Type value, CTECBinaryTreePM<Type> * currentTree);
     TreeNodePM<Type> * getRightMostChild(CTECBInaryTreePM<Type> leftSubTree)
     TreeNodePm<Type> * getRightMostChild(CTECBinaryTreePM<Type> rightSubTree);
+    
+    void remove(TreeNodePMType> nodeToBeRemoved);
 public:
     CTECBInaryTreePM();
     ~CTECBinaryTreePM();
