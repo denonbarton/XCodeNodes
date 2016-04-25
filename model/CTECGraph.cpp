@@ -6,37 +6,32 @@
 //  Copyright © 2016 CTEC. All rights reserved.
 //
 
-#ifndef CTECGraph_hpp
-#define CTECGraph_hpp
-#include <set>
+#include "CTECGraph.hpp"
 
-namespace CTECData
+using namespace CTECData;
+
+template <class Type>
+const int CTECGraph<Type> :: MAXIMUM;
+
+template <class Type>
+void CTECGraph<Type> :: addVertex(const Type&value)
 {
-    template <class Type>
-    class CTECGraph
+    assert(size() < MAXIMUM);
+    int newVertexNumber = manyVertices;
+    manyVertices++;
+    
+    for(int otherVertxNumber = 0; otherVertexNumber < manyVertices; otherVertxNumber)
+
     {
-    private:
-        static const int MAXIMUM = 20;
-        bool adjacencyMatrix[MAXIMUM] [MAXIMUM];
-        Type labels[MAXIMUM];
-        int manyVertices;
+        adjacencyMatrix[otherVertexNumber] [newVertexNumber] = false;
+        adjacencyMatrix {newVertexNumber] [otherVertexNumber] = false
+    }
         
-    public:
-        CTECGraph();
-        ~CTECGraph();
-        
-        void addVertex(const Type& value);
-        void addEdge(int source, int target);
-        void removdge(int source, int target);
-        Type& operator [] (int vertex);
-        Type operator [] (int vertex) const;
-        int size();
-        bool lsEdge(int source, int target) const;
-        std::set<int> neighbors(int vertex) const;
-        
-        
-        
-        
-    };
+        labels[newVertexNumber] = value;
 }
-#endif /* CTECGraph_hpp*/
+
+template <class Type>
+void CTECGraph<Type> :: addEdge(int source, int target)
+{
+    
+}
