@@ -32,6 +32,8 @@ namespace CTECData
         int size();
         bool lsEdge(int source, int target) const;
         std::set<int> neighbors(int vertex) const;
+        void depthFirstTraversal(CTECGraph<Type> graph, int vertex);
+        void breadthFirstTraversal(CTECGraph<Type> graph, int vertex);
         
         
         
