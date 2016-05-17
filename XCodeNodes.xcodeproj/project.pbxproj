@@ -14,9 +14,10 @@
 		6904E7101C99DCFB00F14F85 /* CTECList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6904E7061C99DCFB00F14F85 /* CTECList.cpp */; };
 		6904E7111C99DCFB00F14F85 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6904E7081C99DCFB00F14F85 /* Node.cpp */; };
 		6904E7121C99DCFB00F14F85 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6904E70A1C99DCFB00F14F85 /* Timer.cpp */; };
-		6904E7141C99DD8F00F14F85 /* CTECArray.cp in Sources */ = {isa = PBXBuildFile; fileRef = 6904E7131C99DD8F00F14F85 /* CTECArray.cp */; };
 		691471B01CD3E3100062A429 /* NodeController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 691471AE1CD3E3100062A429 /* NodeController.cpp */; };
 		693C456D1CBEC146003B69A9 /* CTECBinaryTreePM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693C456B1CBEC146003B69A9 /* CTECBinaryTreePM.cpp */; };
+		69A206751CDBC6FC001DBD84 /* CTECHashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69A206731CDBC6FC001DBD84 /* CTECHashTable.cpp */; };
+		69D149C21CE1070A00D8A90D /* HashNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69D149C01CE1070A00D8A90D /* HashNode.cpp */; };
 		69F1EEB21CCE8FDF000E5E8A /* CTECGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69F1EEB01CCE8FDF000E5E8A /* CTECGraph.cpp */; };
 /* End PBXBuildFile section */
 
@@ -47,13 +48,16 @@
 		6904E7091C99DCFB00F14F85 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		6904E70A1C99DCFB00F14F85 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		6904E70B1C99DCFB00F14F85 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
-		6904E7131C99DD8F00F14F85 /* CTECArray.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTECArray.cp; sourceTree = "<group>"; };
 		691471AE1CD3E3100062A429 /* NodeController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeController.cpp; sourceTree = "<group>"; };
-		691471AF1CD3E3100062A429 /* NodeController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NodeController.hpp; sourceTree = "<group>"; };
+		691471AF1CD3E3100062A429 /* NodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeController.h; sourceTree = "<group>"; };
 		693C456B1CBEC146003B69A9 /* CTECBinaryTreePM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTECBinaryTreePM.cpp; sourceTree = "<group>"; };
-		693C456C1CBEC146003B69A9 /* CTECBinaryTreePM.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CTECBinaryTreePM.hpp; sourceTree = "<group>"; };
+		693C456C1CBEC146003B69A9 /* CTECBinaryTreePM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTECBinaryTreePM.h; sourceTree = "<group>"; };
+		69A206731CDBC6FC001DBD84 /* CTECHashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTECHashTable.cpp; sourceTree = "<group>"; };
+		69A206741CDBC6FC001DBD84 /* CTECHashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTECHashTable.h; sourceTree = "<group>"; };
+		69D149C01CE1070A00D8A90D /* HashNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashNode.cpp; sourceTree = "<group>"; };
+		69D149C11CE1070A00D8A90D /* HashNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashNode.h; sourceTree = "<group>"; };
 		69F1EEB01CCE8FDF000E5E8A /* CTECGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTECGraph.cpp; sourceTree = "<group>"; };
-		69F1EEB11CCE8FDF000E5E8A /* CTECGraph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CTECGraph.hpp; sourceTree = "<group>"; };
+		69F1EEB11CCE8FDF000E5E8A /* CTECGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTECGraph.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,6 @@
 				6904E7021C99DCFB00F14F85 /* ArrayNode.cpp */,
 				6904E7031C99DCFB00F14F85 /* ArrayNode.h */,
 				6904E7041C99DCFB00F14F85 /* CTECArray.cpp */,
-				6904E7131C99DD8F00F14F85 /* CTECArray.cp */,
 				6904E7051C99DCFB00F14F85 /* CTECArray.h */,
 				6904E7061C99DCFB00F14F85 /* CTECList.cpp */,
 				6904E7071C99DCFB00F14F85 /* CTECList.h */,
@@ -109,11 +112,15 @@
 				6904E70A1C99DCFB00F14F85 /* Timer.cpp */,
 				6904E70B1C99DCFB00F14F85 /* Timer.h */,
 				693C456B1CBEC146003B69A9 /* CTECBinaryTreePM.cpp */,
-				693C456C1CBEC146003B69A9 /* CTECBinaryTreePM.hpp */,
+				693C456C1CBEC146003B69A9 /* CTECBinaryTreePM.h */,
 				69F1EEB01CCE8FDF000E5E8A /* CTECGraph.cpp */,
-				69F1EEB11CCE8FDF000E5E8A /* CTECGraph.hpp */,
+				69F1EEB11CCE8FDF000E5E8A /* CTECGraph.h */,
 				691471AE1CD3E3100062A429 /* NodeController.cpp */,
-				691471AF1CD3E3100062A429 /* NodeController.hpp */,
+				691471AF1CD3E3100062A429 /* NodeController.h */,
+				69A206731CDBC6FC001DBD84 /* CTECHashTable.cpp */,
+				69A206741CDBC6FC001DBD84 /* CTECHashTable.h */,
+				69D149C01CE1070A00D8A90D /* HashNode.cpp */,
+				69D149C11CE1070A00D8A90D /* HashNode.h */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -178,8 +185,9 @@
 				6904E70C1C99DCFB00F14F85 /* NodeController.cpp in Sources */,
 				6904E7101C99DCFB00F14F85 /* CTECList.cpp in Sources */,
 				69F1EEB21CCE8FDF000E5E8A /* CTECGraph.cpp in Sources */,
-				6904E7141C99DD8F00F14F85 /* CTECArray.cp in Sources */,
+				69A206751CDBC6FC001DBD84 /* CTECHashTable.cpp in Sources */,
 				691471B01CD3E3100062A429 /* NodeController.cpp in Sources */,
+				69D149C21CE1070A00D8A90D /* HashNode.cpp in Sources */,
 				6904E7111C99DCFB00F14F85 /* Node.cpp in Sources */,
 				6904E70D1C99DCFB00F14F85 /* NodeRunner.cpp in Sources */,
 				6904E7121C99DCFB00F14F85 /* Timer.cpp in Sources */,

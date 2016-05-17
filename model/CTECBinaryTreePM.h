@@ -17,6 +17,7 @@ namespace CtecData
 {
 private:
     int size;
+    
     TreeNodePM<Type> * root;
     int height;
     bool balanced;
