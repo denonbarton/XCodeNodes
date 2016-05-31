@@ -10,6 +10,10 @@
 #define CTECHashTable_hpp
 
 #include "HashNode.cpp"
+#include "CTECList.h"
+#include <stdio.h>
+
+#include "HashNode.cpp"
 
 #include <stdio.h>
 
@@ -21,13 +25,20 @@ namespace CTECData
     private:
         int size;
         int capacity;
-       HashNode<Type> * internalStorage;
+        HashNode<Type> ** internalStorage;
+        void updateTableCapacity();
+        int chainedCapacity;
+        int chainedSize;
+        CTECList<HashNode<Type>> * chainedStorage;
+        void updateChainedCapacity();
+        
         double efficiencyPercentage;
         
-        int findPosition(HashNode<Type> currentNode);
+        int findPostion(HashNode<Type> currentnode);
         int handleCollision(HashNode<Type> currentNode);
-        void updateSize();
-        
+        void updateCapacity();
+        int getNextPrime();
+        bool isPrime(int candidateNumber);
       
     public:
         CTECHashTable();
